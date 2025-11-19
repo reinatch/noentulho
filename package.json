@@ -1,0 +1,58 @@
+{
+  "name": "noentulho",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "sh deploy.sh"
+  },
+  "dependencies": {
+    "@diracleo/vue-enlargeable-image": "0.0.7",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "gsap": "file:gsap-bonus.tgz",
+    "three": "^0.128.0",
+    "v-img": "^0.2.0",
+    "vue": "^2.6.11",
+    "vue-cool-lightbox": "^2.7.4",
+    "vue-easy-lightbox": "^0.16.2",
+    "vue-gallery-slideshow": "^1.5.2",
+    "vue-picture-swipe": "^2.1.0",
+    "vue-responsive-video-background-player": "^1.2.2",
+    "vue-silentbox": "^2.4.5",
+    "vue-soundcloud-player": "^1.2.0",
+    "vue-vimeo-player": "^0.2.2",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "glslify-loader": "^2.0.0",
+    "raw-loader": "^4.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
